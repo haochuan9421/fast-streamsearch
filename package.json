@@ -1,0 +1,39 @@
+{
+  "name": "fast-streamsearch",
+  "version": "1.0.0",
+  "description": "Streaming searching for Node.js, but up to 100 times faster than streamsearch 🚀",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "bench": "node benchmark/index.js"
+  },
+  "keywords": [
+    "stream",
+    "search",
+    "horspool",
+    "boyer-moore-horspool"
+  ],
+  "author": "haochuan9421 <hc199421@gmail.com>",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "streamsearch": "^1.1.0",
+    "typescript": "^4.9.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:haochuan9421/fast-streamsearch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haochuan9421/fast-streamsearch/issues"
+  },
+  "homepage": "https://github.com/haochuan9421/fast-streamsearch",
+  "license": "MIT"
+}
