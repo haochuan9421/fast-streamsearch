@@ -1,6 +1,6 @@
 {
   "name": "fast-streamsearch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Streaming searching for Node.js, but up to 100 times faster than streamsearch 🚀",
   "main": "index.js",
   "types": "index.d.ts",

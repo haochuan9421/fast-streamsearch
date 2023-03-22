@@ -1,3 +1,5 @@
+# ⚠️ This repo has Moved to [@stream-toolbox/search](https://www.npmjs.com/package/@stream-toolbox/search)
+
 # fast-streamsearch
 
 fast-streamsearch 是一款 Node.js 流搜索工具，最快可以比 [streamsearch](https://www.npmjs.com/package/streamsearch) 快 100 倍 🚀。
@@ -42,15 +44,7 @@ const fss = new FastStreamSearch(needle, (isMatch, data) => {
   }
 });
 
-const chunks = [
-  "foo",
-  " bar",
-  "\r",
-  "\n",
-  "baz, hello\r",
-  "\n world.",
-  "\r\n Node.JS rules!!\r\n\r\n",
-];
+const chunks = ["foo", " bar", "\r", "\n", "baz, hello\r", "\n world.", "\r\n Node.JS rules!!\r\n\r\n"];
 for (const chunk of chunks) {
   fss.push(Buffer.from(chunk));
 }
@@ -87,14 +81,7 @@ const fss = new FastStreamSearch(foo, (isMatch, data) => {
   }
 });
 
-const chunks = [
-  "ab",
-  "foo",
-  "cd",
-  "foo",
-  "ef",
-  "bar"
-];
+const chunks = ["ab", "foo", "cd", "foo", "ef", "bar"];
 for (const chunk of chunks) {
   fss.push(Buffer.from(chunk));
 }
